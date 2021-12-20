@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    margin: 0%;
+    /* background-color: rgb(21, 81, 109);  */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 200px;
+    background-image: url("img/header-bild.jpg");
+    background-repeat: no-repeat;
+    background-position: center;/*bilden börjar i mitten*/
+    background-size: cover; /*Täcker upp hela sektionen*/
+     /*placerar texten i mitten med hjälp av flexbox*/
+    
+}
+
+
+.Huvud{
+  display: flex;
+  align-items: flex-start;  
+  margin: 0;
+}
+
+.info-1{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.info-1 a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container{
+     background-color: red; 
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+article{
+    width: 100%;
+    margin: 1%;
+}
+
+/* article är child till div */
+/* Kommer vara en stor hjälp inför inlämningsuppgift */
+article:nth-child(odd){
+    background-color: grey;
+}
+
+.img-responsive{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 200px;
+    background-image: url("img/dark-blue.jpg");
+    background-repeat: no-repeat;
+    background-position: center;/*bilden börjar i mitten*/
+    background-size: cover;
+}
+
+.mail{
+    display: flex;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+}
+
+.slut-bild{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
